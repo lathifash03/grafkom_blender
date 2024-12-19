@@ -47,6 +47,6 @@ project-folder
 
 ---
 
-## Pratinjau
+## Preview
 
 <img width="1340" alt="Screenshot 2567-12-19 at 17 50 06" src="https://github.com/user-attachments/assets/57c513bf-5d3b-40ac-a438-563a8169dad3" />
