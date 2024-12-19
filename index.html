@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLOWER VASE</title>
+    <script src="https://webglfundamentals.org/webgl/resources/webgl-utils.js"></script>
+    <script src="https://webglfundamentals.org/webgl/resources/m4.js"></script>
+    <script type="text/javascript" src="parsing_obj.js"></script>
+    <script type="text/javascript" src="parsing_mtl.js"></script>
+    <script type="text/javascript" src="handler.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<header>
+    <div class="header-content">
+        <h1>FLOWER VASE</h1>
+        <p>Explore 3D Models in Style</p>
+    </div>
+</header>
+
+    <div class="container">
+        <div class="left">
+            <canvas id="canvas"></canvas>
+        </div>
+        
+        <div class="right">
+            <h4>Lathifah Sahda</h4>
+            <h4>5025221159 / Grafika Komputer E</h4>
+            <div class="control-box">
+                <p><strong>Controls:</strong></p>
+                <p>Drag to move | Scroll to zoom</p>
+            </div>
+            <button id="reset-view">Reset View</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lathifah Sahda - Computer Graphics E</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            main();
+
+            // Example reset functionality
+            document.getElementById("reset-view").addEventListener("click", function () {
+                console.log("Reset view functionality goes here.");
+            });
+        });
+    </script>
+</body>
+</html>
